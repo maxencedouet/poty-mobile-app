@@ -1,0 +1,35 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-ble-central": {
+            "BLUETOOTH_USAGE_DESCRIPTION": "POTY connect",
+            "PACKAGE_NAME": "fr.poty.app"
+        },
+        "cordova-plugin-browsersync": {
+            "PACKAGE_NAME": "fr.poty.app"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "fr.poty.app"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "fr.poty.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "fr.poty.app"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "fr.poty.app"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "fr.poty.app"
+        }
+    }
+}

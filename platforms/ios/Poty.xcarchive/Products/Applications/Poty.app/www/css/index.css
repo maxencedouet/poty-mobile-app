@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #74CADA;
+    border: 0;
+    margin:0;
+}
+
+div {
+    font-family: 'futura-bold'
+}
+
+@font-face {
+    font-family: futura-bold;
+    src: url(futura-bold.ttf);
+
+}
+
+@-webkit-keyframes spinnerRotate
+{
+    from{
+    	-webkit-transform:rotate(0deg)
+    }
+    to{
+    	-webkit-transform:rotate(360deg)
+    }
+}
+
+.spin {
+    -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 1.25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.color-picker-picker {
+  border: none !important;
+}
+
+.rzslider .rz-pointer {
+    top: -12px;
+    background: #EF2270;
+    background-color: #EF2270;
+}
+
+.rzslider .rz-bar {
+    background-color: #9ADBFC;
+    border-radius: 5px;
+    height: 10px
+}
+
+.rzslider .rz-pointer:after {
+    background: #EF2270;
+}
+
+.rzslider .rz-pointer.rz-active:after {
+    background: #EF2270;
+}
+
+.color-picker-overlay {
+    background-color: white !important
+}
